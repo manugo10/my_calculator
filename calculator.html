@@ -1,9 +1,9 @@
 <!DOCTYPE html><html><head>
 <title>Calculator</title><meta charset="utf-8">
 <script type="text/javascript">
-function cube() {
+function pow(n) {
  var num = document.getElementById("n1");
- num.value = Math.pow(num.value, 3);
+ num.value = Math.pow(num.value, n);
 }
 </script>
 </head>
@@ -12,7 +12,8 @@ function cube() {
  Number:
  <input type="text" id="n1">
  <p>
- <button onclick="cube()"> x^3 </button>
+ <button onclick="pow(3)"> x^3 </button>
  </p>
+  <button onclick="pow(4)"> x^4 </button>
 </body>
 </html>
