@@ -5,6 +5,10 @@ function cube() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 3);
 }
+function seno() {
+ var num = document.getElementById("n1");
+ num.value = Math.sin(num.value);
+}
 </script>
 </head>
 <body>
@@ -14,5 +18,6 @@ function cube() {
  <p>
  <button onclick="cube()"> x^3 </button>
  </p>
+ <button onclick="seno()"> Seno </button>
 </body>
 </html>
