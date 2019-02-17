@@ -1,2 +1,2 @@
-Mi primer fichero en mi primer repositorio, Cristian Moreno Chávez
+Mi primer fichero en mi primer repositorio, Manuel Gonzalez 
 
